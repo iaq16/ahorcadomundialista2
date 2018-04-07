@@ -9,13 +9,28 @@
 	   color: blue;
 	   font-size: 16px;
 	}
+
+	input
+	{
+	  background-color: rgb(20,150,200);
+	  color: white;
+	  border-color: red;
+	  -webkit-text-stroke-color: 
+
+	}
 	
 </style>
 </head>
 <body>
 	<form>
 		<h1 class="color" style="text-align:center; font-family: arial">AHORCADO MUNDIALISTA</h1>
-		La longitud de la palabra es: <%= session["longitudpalabra"] %>
+		La longitud de la palabra es: <%= session["longitudpalabra"] %><br>
+
+		<%
+		for i in(1..session["longitudpalabra"])
+		%>
+		<input type="text" id="caja<%= i %>" value="" readonly>
+		<% end %>
 	</form>
 </body>
 </html>
