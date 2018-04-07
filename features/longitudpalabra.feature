@@ -7,7 +7,7 @@ Característica:
 
 Escenario: cuando ingrese a la pagina debe aparecer la longitud de la palabra
   Dado al abrir la aplicación 
-  Entonces deberia ver "10"
+  Entonces deberia ver "6"
 
 
 
