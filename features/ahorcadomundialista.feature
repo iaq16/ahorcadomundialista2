@@ -16,3 +16,5 @@ Característica:
  Escenario: visualizar que el titulo tenga letra Arial
  Dado al abrir la aplicación
  Entonces debería ver "arial" 
+
+ 
