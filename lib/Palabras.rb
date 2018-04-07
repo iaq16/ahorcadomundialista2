@@ -1,8 +1,11 @@
 class Palabras
   
+  def initialize 
+   @LONGITUDPALABRA = 6
+  end
    
  def obtenerLongitud
-   6
+   @LONGITUDPALABRA
  end
  	
 
